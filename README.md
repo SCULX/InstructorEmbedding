@@ -8,10 +8,10 @@
 ### Day 3
 - [ ] 开启InstructorEmbedding的数据预处理
 - [ ] 设计整体框架
-
+***
 ### Day long long
 - [x] 实现二分类任务微调bert基础模型,并对比微调之后的效果
-
+***
 ### Day new 1
 - [x] restart the project and have to be accomplish soon.
 1. 快速掌握transforemers库的各类方法和整体框架.
