@@ -4,7 +4,7 @@ from sentence_transformers import SentenceTransformer
 # Define the sentence-transformers model name
 model_name = "bert-base-uncased"
 # 网络原因，只能下载本地模型然后再去加载
-model = SentenceTransformer('../Model/bert-base-uncased')
+model = SentenceTransformer('Model/bert-base-uncased')
 
 
 # 输出模型内部的池化策略组件信息
