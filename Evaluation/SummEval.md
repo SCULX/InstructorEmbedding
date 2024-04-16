@@ -115,16 +115,5 @@ for i, (embs_human_summaries, embs_machine_summaries) in tqdm.tqdm( ):
 ### Formulation
 公式化定义如下：
 
-$$
-P = \frac{1}{n} \sum_{i=1}^{n} p_i, \text{ where } n = 11, \text{ and } p_i \text{ is defined as:}
-$$
-
-$$
-p_i = \text{pearson}(\hat{r}_i, r_i), \text{ where } \hat{r}_i \text{ is the network output and } r_i \text{ is the relevance score.}
-$$
-
-$$
-\hat{r}_i = \max_j (\left\langle x_{ij}, y_i \right\rangle), \quad \text{where} \left\langle x_{ij}, y_i \right\rangle \text{ is the similarity of } x_{ij} \text{ and } y_i, \text{ and } j = 0,...,16
-$$
-
+![Alt text](images/sum_formu.png)
 
